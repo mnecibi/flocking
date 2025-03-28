@@ -1,0 +1,35 @@
+{
+  "name": "flocking",
+  "version": "1.0.0",
+  "description": "Flocking",
+  "main": "sketch.js",
+  "scripts": {
+    "start": "live-server",
+    "dev": "esbuild --watch sketch.js --bundle --outfile=index.js",
+    "build": "esbuild sketch.js --bundle --outfile=index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/THEMahdouch/p5-accelerator.git"
+  },
+  "keywords": [
+    "p5.js",
+    "accelerator",
+    "js",
+    "p5"
+  ],
+  "author": "THEMahdouch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/THEMahdouch/p5-accelerator/issues"
+  },
+  "homepage": "https://github.com/THEMahdouch/p5-accelerator#readme",
+  "dependencies": {
+    "p5": "^1.11.3"
+  },
+  "devDependencies": {
+    "@types/p5": "^1.7.6",
+    "eslint": "^8.52.0",
+    "watchify": "^4.0.0"
+  }
+}
