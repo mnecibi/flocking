@@ -8,7 +8,7 @@ export default class Boid {
         this.acceleration = p5.createVector()
         this.maxForce = 0.2
         this.maxSpeed = 4
-        this.r = 10
+        this.r = 12
     }
 
     align(p5, boids) {
