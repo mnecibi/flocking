@@ -25,11 +25,12 @@
   },
   "homepage": "https://github.com/THEMahdouch/p5-accelerator#readme",
   "dependencies": {
-    "p5": "^1.11.3"
+    "p5": "^1.11.13"
   },
   "devDependencies": {
     "@types/p5": "^1.7.6",
-    "eslint": "^8.52.0",
+    "esbuild": "^0.28.2",
+    "eslint": "^10.13.0",
     "watchify": "^4.0.0"
   }
 }
